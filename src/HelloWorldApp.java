@@ -17,6 +17,17 @@ public class HelloWorldApp {
 		TestZmienna.cos(); 
 		System.out.println("a after = " + HelloWorldApp.a);
 		
+//		String x = "Mario";
+//		String y = "Mario";
+
+		String x = new String("Mario");
+		String y = new String("Mario");
+		
+		System.out.println(x == y); 
+		System.out.println(x.equals(y));
+		
+		//String zm1 = new String 
+		
 	}
 
 }
